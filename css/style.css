@@ -267,12 +267,11 @@ body {
 
 #hero {
   background-color: #b35346;
-  padding-bottom: 100px;
 }
 
 .hero-inner {
   position: relative;
-  left: 550px;
+  left: 580px;
   animation-name: text;
   animation-delay: 0.5s;
   animation-duration: 4s;
@@ -297,7 +296,7 @@ body {
   margin-bottom: 25px;
   letter-spacing: 0.5em;
   text-transform: uppercase;
-  margin-left: 108px;
+  margin-left: 85px;
 }
 
 .hero-title {
@@ -587,4 +586,602 @@ body {
 .icon-flag {
 max-width: 20px;
 padding-right: 3px;
+}
+
+.main-span {
+  font-size: 12px;
+  color: #888;
+  text-transform: uppercase;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+}
+
+.main-link {
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: 500;
+  color: #222;
+  text-transform: capitalize;
+  width: 159px;
+  margin-bottom: 30px;
+}
+
+.main-text {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 25px;
+}
+.main-text::before {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 2px;
+  background-color: #d88f0f;
+  bottom: -5px;
+}
+
+.main-inner {
+  padding: 20px 35px;
+  width: 506px;
+  background-color: #eee6d1;
+}
+
+.a {
+  background-color: #f9f9f9;
+}
+
+.clock {
+  transition: all 1s ease;
+}
+.clock:hover {
+  transform: scale(1.2);
+}
+.clock-s {
+  transition: all 1s ease;
+  object-fit: cover;
+}
+.clock-s:hover {
+  transform: scale(1.1);
+}
+
+.lam {
+  background-color: #d0f1ed;
+}
+
+#site-main {
+  margin-bottom: 80px;
+}
+
+
+.links-item {
+  list-style: none;
+  margin-right: 55px;
+}
+
+.linking {
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+  color: #888;
+  position: relative;
+}
+.linking.activ {
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px; 
+  color: #222;
+  position: relative;
+}
+
+.linking.activ::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #d88f0f;
+  bottom: -5px;
+  display: inline-block;
+}
+
+.linking::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #d88f0f;
+  bottom: -5px;
+  transition: all 0.5s ease;
+  display: inline-block;
+}
+
+.linking:hover {
+  color: #222;
+} 
+.linking:hover::before {
+  width: 100%;
+}
+.product-links {
+  margin-bottom: 60px;
+}
+
+#product {
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+
+.product-list {
+  list-style: none;
+}
+.product-item {
+  margin-bottom: 20px;
+}
+.new {
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+.percent {
+  font-size: 12px;
+  color: #fff;
+  background-color: #ff0000;
+  padding: 2px 3px;
+}
+
+
+.new-text {
+  color: #fff;
+  font-size: 12px;
+  background-color: #2fb5d2;
+  padding: 2px 6px;
+}
+
+.img-1 {
+  background-image: url(../imgs/stol.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-1 {
+  background-image: url(../imgs/stol-hover.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-2 {
+  background-image: url(../imgs/stol1-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-2 {
+  background-image: url(../imgs/stol1.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-3 {
+  background-image: url(../imgs/stol-2.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-3{
+  background-image: url(../imgs/stol-2h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-4 {
+  background-image: url(../imgs/stol3.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-4 {
+  background-image: url(../imgs/stol4-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-5 {
+  background-image: url(../imgs/stol5.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-5 {
+  background-image: url(../imgs/stol5-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-6 {
+  background-image: url(../imgs/stol6.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-6 {
+  background-image: url(../imgs/stol6-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-7 {
+  background-image: url(../imgs/stol7.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-7 {
+  background-image: url(../imgs/stol7-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-8 {
+  background-image: url(../imgs/stol8.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-8 {
+  background-image: url(../imgs/stol8-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-9 {
+  background-image: url(../imgs/stol9.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-9 {
+  background-image: url(../imgs/stol9-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-10 {
+  background-image: url(../imgs/stol10.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all 0.5s ease;
+}
+
+.product-item:hover .img-10 {
+  background-image: url(../imgs/stol10-h.jpg);
+  width: 275px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.studio-box {
+  width: 275px;
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.studio {
+  text-decoration: none;
+  font-size: 13px;
+  color: #a3a3a3;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.studio:hover {
+  color: #d88f0f;
+}
+
+.hummin {
+  font-size: 15px;
+  text-decoration: none;
+  color: #222;
+  font-family: sans-serif;
+}
+.hummin:hover {
+  color: #d88f0f;
+}
+.price-box {
+  margin-top: 10px;
+}
+.price-reg {
+  font-size: 14px;
+  color: #888;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.price-pro {
+  font-size: 16px;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.view-btn {
+  font-size: 16px;
+  background-color: #fff;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #222;
+  font-weight: 500;
+  padding: 20px 110px;
+  border: 1px solid #999;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.view-btn:hover {
+  background-color: #d88f0f;
+  color: #fff;
+}
+
+#blog {
+  padding: 0 60px;
+  margin-bottom: 80px;
+}
+
+.blog-title {
+  font-size: 48px;
+  color: #222;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.sub-title {
+  font-size: 16px;
+  color: #666;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.blog-list {
+  list-style: none;
+}
+
+.blog-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #222;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 24px;
+  cursor: pointer;
+}
+.blog-link:hover {
+  color: #d88f0f;
+}
+
+.hashtag {
+  text-decoration: none;
+  color: #222;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-right: 3px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.hashtag:hover {
+  color: #d88f0f;
+}
+.date {
+  color: #666;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.blog-text {
+  width: 447px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.read-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #222;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  position: relative;
+}
+.read-link:hover {
+  color: #d88f0f;
+}
+
+.read-link::before {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #222;
+  position: absolute;
+  top: 20px;
+}
+
+.blog-inner {
+  margin-bottom: 50px;
+}
+
+.view-link {
+  font-size: 16px;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 600;
+  padding: 15px 70px;
+  border: 1px solid #999;
+  transition: all 0.3s ease;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.view-link:hover {
+  background-color: #222;
+  color: #fff;
+}
+
+#aside {
+  background-color: #f7f7f7;
+  padding: 20px 120px;
+}
+
+
+#site-footer {
+  background-color: #23282e;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.footer-logo {
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  background-color: #fff;
+  padding: 0px 35px;
+  line-height: 55px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background-color: #f2f2f2;
+  right: 15px;
+  top: 13px;
+}
+
+.footer-input {
+  width: 400px;
+  height: 55px;
+  border: none;
+}
+.footer-input:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-family: sans-serif;
+}
+
+.footer-btn {
+  background-color: #000;
+  padding: 19px 40px;
+  color: #fff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.footer-btn:hover {
+  background-color: #d88f0f;
+}
+
+.footer-icon {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.footer-item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.footer-list-item {
+  list-style: none;
+}
+.footer-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #d88f0f;
+}
+.footer-list {
+  position: relative;
+}
+.footer-list::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #393e43;
+  position: absolute;
+  top: 70px;
+}
+
+.footer-end {
+  margin-top: 6%;
+}
+.footer-end-text {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
 }
