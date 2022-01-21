@@ -392,6 +392,10 @@ body {
   left: 25px;
 }
 
+.icon:hover {
+  color: #d88f0f;
+}
+
 .loginbox {
   display: none;
   background-color: #fff;
