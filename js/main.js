@@ -21,3 +21,16 @@ user.addEventListener('click', function() {
 closebtn.addEventListener('click', function() {
   login.classList.remove('shows');
 });
+
+
+let message = document.getElementById('open-message');
+let close = document.getElementById('message-remove');
+let opneing = document.getElementById('modalMessenger');
+
+message.addEventListener('click', function() {
+  modalMessenger.classList.add('open');
+});
+
+close.addEventListener('click', function() {
+  modalMessenger.remove('open');
+});

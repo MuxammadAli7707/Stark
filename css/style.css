@@ -1056,6 +1056,31 @@ padding-right: 3px;
   margin-bottom: 50px;
 }
 
+.blog-img {
+  transition: all 0.7s ease;
+}
+
+.blog-img:hover {
+  transform: scale(1.1) rotate(3deg);
+  transition: all 0.8s ease;
+}
+
+.blog-img2 {
+  transition: all 0.7s ease;
+}
+.blog-img2:hover {
+  transform: scale(1.1) rotate(3deg);
+  transition: all 0.7s ease;
+}
+
+.blog-img3 {
+  transition: all 0.7s ease;
+}
+.blog-img3:hover {
+  transform: scale(1.1) rotate(3deg);
+  transition: all 0.7s ease;
+}
+
 .view-link {
   font-size: 16px;
   background-color: #fff;
@@ -1184,4 +1209,119 @@ padding-right: 3px;
   font-size: 14px;
   text-decoration: none;
   font-family: sans-serif;
+}
+
+
+.message-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 45px;
+  z-index: 200;
+}
+
+.messenger-box {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  transition-timing-function: ease-in;
+  animation-duration: 600ms;
+  animation-name: fb_bounce_in_v2;
+  padding: 28px 30px;
+  position: fixed;
+  right: 30px;
+  bottom: 115px;
+  display: none;
+  transition: all 0.5s ease;
+  transition-timing-function: ease-in;
+}
+
+.open {
+  display: block;
+  transition: all 0.5s ease;
+  transition-timing-function: ease-in;
+}
+
+.mes-btns {
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mes-btns:first-child {
+  margin-right: 5px;
+}
+
+.message-entry {
+  margin-bottom: 25px;
+}
+
+.message-title {
+  font-size: 20px;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.message-text {
+  color: rgba(0, 0, 0, .5);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-top: 8px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
+
+
+.message-text2 {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  border: none;
+  padding: 15px 45px;
+  border-radius: 15px;
+  background-color: #0a7cff;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bxl-messenger {
+  font-size: 22px;
+  margin-right: 3px;
+}
+
+.btn2 {
+  border: none;
+  padding: 15px 85px;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+  color: #000;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.message-text3 {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #949494;
+  text-align: center;
+  line-height: 25px;
+}
+
+.bold {
+  color: #000;
 }
