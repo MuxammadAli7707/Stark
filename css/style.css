@@ -1340,7 +1340,18 @@ padding-right: 3px;
   right: 30px;
   bottom: 115px;
   display: none;
-  transition: all 0.3s ease-in;
+  animation: mess 0.3s ease-in;
+}
+
+@keyframes mess {
+  0% {
+    width: 0;
+    height: 0;
+  }
+  100% {
+    width: 375px;
+    height: 410px;
+  }
 }
 
 .open {
@@ -1443,6 +1454,7 @@ padding-right: 3px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: none;
+  z-index: 55;
 }
 
 .enter {
