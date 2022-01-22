@@ -25,7 +25,7 @@ closebtn.addEventListener('click', function() {
 
 let message = document.getElementById('open-message');
 let close = document.getElementById('message-remove');
-let opneing = document.getElementById('modalMessenger');
+let opening = document.getElementById('modalMessenger');
 
 message.addEventListener('click', function() {
   modalMessenger.classList.add('open');

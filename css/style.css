@@ -906,6 +906,71 @@ padding-right: 3px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.ikon-list {
+  position: relative;
+  list-style: none;
+  width: 100px;
+}
+
+.ikon:first-child {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #000;
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  transition: all 0.2s ease;
+  opacity: 0;
+  color: #fff;
+}
+
+.ikon:hover {
+  background-color: #d88f0f;
+}
+
+.ikon2 {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left:115px;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+}
+.ikon2:hover {
+  background-color: #d88f0f;
+}
+
+.ikon3 {
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left:170px;
+  transition: all 0.3s ease-in;
+  opacity: 0;
+}
+.ikon3:hover {
+  background-color: #d88f0f;
+}
+
+.product-item:hover .ikon {
+  opacity: 1;
+  bottom: 28px;
+}
+
+.product-item:hover .ikon2 {
+  opacity: 1;
+  bottom: 28px;
+}
+.product-item:hover .ikon3 {
+  opacity: 1;
+  bottom: 28px;
+}
+
 .studio-box {
   width: 275px;
   padding-top: 25px;
@@ -1056,13 +1121,21 @@ padding-right: 3px;
   margin-bottom: 50px;
 }
 
+.blog-img-box {
+  width: 447px;
+  height: 321px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
 .blog-img {
   transition: all 0.7s ease;
 }
 
-.blog-img:hover {
-  transform: scale(1.1) rotate(3deg);
-  transition: all 0.8s ease;
+.blog-img-box:hover .blog-img {
+  transform: scale(1.07) rotate(3deg);
+  transition: all 0.7s ease;
 }
 
 .blog-img2 {
@@ -1101,9 +1174,45 @@ padding-right: 3px;
 
 #aside {
   background-color: #f7f7f7;
-  padding: 20px 120px;
+  padding: 20px 0;
 }
 
+.aside-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.aside-list {
+  list-style-type: none;
+  width: 3000px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.aside-item {
+  width: 200px;
+  height: 120px;
+  margin: 0 48px;
+  animation: aside-anime 15s infinite forwards;
+}
+
+@keyframes aside-anime {
+  0% {
+    transform: translate3d(0px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(-1500px, 0, 0);
+    animation-delay: 2s;
+  }
+
+  100% {
+    transform: translate3d(-1500px, 0, 0);
+  }
+
+}
 
 #site-footer {
   background-color: #23282e;
@@ -1211,12 +1320,12 @@ padding-right: 3px;
   font-family: sans-serif;
 }
 
-
 .message-icon {
   position: fixed;
   right: 30px;
   bottom: 45px;
   z-index: 200;
+  border-radius: 50%;
 }
 
 .messenger-box {
@@ -1226,21 +1335,18 @@ padding-right: 3px;
   display: flex;
   flex-direction: column;
   width: 375px;
-  transition-timing-function: ease-in;
-  animation-duration: 600ms;
-  animation-name: fb_bounce_in_v2;
   padding: 28px 30px;
   position: fixed;
   right: 30px;
   bottom: 115px;
   display: none;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   transition-timing-function: ease-in;
 }
 
 .open {
   display: block;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   transition-timing-function: ease-in;
 }
 
