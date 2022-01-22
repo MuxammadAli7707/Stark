@@ -34,3 +34,16 @@ message.addEventListener('click', function() {
 close.addEventListener('click', function() {
   opening.classList.remove('open');
 });
+
+
+let shopping = document.getElementById('shop');
+let lock = document.getElementById('cancel');
+let wow = document.getElementById('cart') 
+
+shopping.addEventListener('click', function() {
+  wow.classList.add('enter');
+});
+
+lock.addEventListener('click', function() {
+  wow.classList.remove('enter');
+});

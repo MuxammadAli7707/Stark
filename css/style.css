@@ -1340,14 +1340,11 @@ padding-right: 3px;
   right: 30px;
   bottom: 115px;
   display: none;
-  transition: all 0.3s ease;
-  transition-timing-function: ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .open {
   display: block;
-  transition: all 0.3s ease;
-  transition-timing-function: ease-in;
 }
 
 .mes-btns {
@@ -1430,4 +1427,143 @@ padding-right: 3px;
 
 .bold {
   color: #000;
+}
+
+.shopping-cart {
+  position: fixed;
+  top: 100px;
+  left: 350px;
+  animation-name: cart;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  width: 800px;
+  height: 420px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: none;
+}
+
+.enter {
+  display: block;
+}
+
+
+@keyframes cart {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 200px;
+  }
+}
+
+.check {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.bx-check {
+  font-size: 30px;
+  color: #fff;
+}
+
+.cart-heading {
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.cancel {
+  font-size: 22px;
+  color: #fff;
+}
+
+.cart-info {
+  padding: 15px;
+}
+
+.cart-img {
+  margin-right: 20px;
+}
+
+.cart-title {
+  margin-top: 15px;
+}
+.cart-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.25em;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.cart-link:hover {
+  color: #d88f0f;
+}
+
+.size {
+  font-size: 16px;
+  color: #222;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.coast {
+  font-size: 14px;
+  color: #666;
+  font-family: sans-serif;
+}
+.colr {
+  font-size: 16px;
+  color: #222;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.dollar {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.cart-text {
+  color: #666;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.total {
+  color: #666;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.cart-btn {
+  display: block;
+  margin-top: 25px;
+  padding: 16px 160px;
+  color: #fff;
+  background-color: #f11d22;
+  border: none;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.cart-btn:hover {
+  background-color: #cc1115;
+}
+
+.cart-btn2 {
+  display: block;
+  padding: 16px 166px;
+  color: #222;
+  background-color: #e7e7e7;
+  border: none;
+  font-family: sans-serif;
 }
