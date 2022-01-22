@@ -28,9 +28,9 @@ let close = document.getElementById('message-remove');
 let opening = document.getElementById('modalMessenger');
 
 message.addEventListener('click', function() {
-  modalMessenger.classList.add('open');
+  opening.classList.add('open');
 });
 
 close.addEventListener('click', function() {
-  modalMessenger.remove('open');
+  opening.classList.remove('open');
 });
